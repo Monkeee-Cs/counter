@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="startMenu" ><h3>Please, Enter a name:</h3>
+    <input type="text" name="CounterName" id="CounterName" minlength="2" maxlength="32" placeholder="Enter a name"> <input type="button" value="Submit" id="enterName"></div>
+    <div id="counter" style="display: none;">
+        <div id="name"></div>
+        <div id="number">0</div>
+            <div id="controls">
+                <input type="button" id="add" class="button1" value="+">
+                <input type="button" id="rem" class="button2" value="-">
+                <input type="button" id="res" class="button3" value="Reset">
+                <input type="number" name="multiplier" id="multi" value="1" placeholder="Multiplier" min="0">
+            </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

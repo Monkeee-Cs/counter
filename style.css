@@ -1,0 +1,118 @@
+/* Aqua: rgb(111, 195, 223) 
+   Orange: rgb(243, 133, 24)*/
+body {
+    color: rgb(111, 195, 223);
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3:hover {
+    border: 1px dashed rgb(243, 133, 24);
+    margin-left: 595px;
+    margin-right: 595px;
+}
+
+#CounterName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 225px;
+    font-size: 20px;
+    color: rgb(111, 195, 223);
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(111, 195, 223);
+}
+
+#enterName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid rgb(111, 195, 223);
+    color: rgb(111, 195, 223);
+    background-color: black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#enterName:hover {
+    cursor: pointer;
+    border: 2px dashed rgb(243, 133, 24);
+}
+
+.button1 {
+    margin: 0;
+    position: absolute;
+    top: 27%;
+    left: 47.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button2 {
+    margin: 0;
+    position: absolute;
+    top: 27%;
+    left: 49.3%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button3 {
+    margin: 0;
+    position: absolute;
+    top: 27%;
+    left: 52.2%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#add, #rem, #res {
+    color: rgb(111, 195, 223);
+    background-color: black;
+    border-radius: 2px;
+    border: 2px rgb(111, 195, 223) solid;
+    font-size: 20px;
+}
+
+#add:hover, #rem:hover, #res:hover {
+    cursor: pointer;
+    border: 2px dashed rgb(243, 133, 24);
+}
+
+#number {
+    font-size: 100px;
+    text-align: center;
+}
+
+#multi {
+    position: absolute;
+    top: 33%;
+    left: 50.5%;
+    width: 200px;
+    color: rgb(111, 195, 223);
+    background-color: black;
+    border-radius: 2px;
+    border: 2px solid rgb(111, 195, 223);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#multi:hover {
+    border: 2px dashed rgb(243, 133, 24);
+    cursor: pointer;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
