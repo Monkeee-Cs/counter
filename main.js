@@ -39,3 +39,11 @@ function remNum() {
 function resNum() {
     document.getElementById('number').innerHTML = 0;
 }
+
+const password = window.prompt("Enter a password!");
+if (password == "MonkeeeCode"){
+    console.log("Password accepted!");
+} else {
+    console.log("Passwrod denied!");
+    window.location.replace("https://google.com")
+}
